@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'MedievalSharp', cursive;
+}
+
+/* VIDEO BACKGROUND */
+#bg-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+/* CENTER PAGE */
+body {
+    color: #bd2121;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* MAIN CONTAINER */
+.container {
+    text-align: center;
+}
+
+/* GLASS CARD (Acheron style) */
+.card {
+    margin-top: 15px;
+    padding: 20px;
+    border-radius: 12px;
+
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(8px);
+
+    border: 1px solid rgb(166, 59, 59);
+}
+
+/* TEXT */
+h1 {
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-size: 18px;
+    color: #ad2727;
+}
+
+/* LINK */
+.about-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.about-link:hover {
+    text-shadow: 0 0 10px rgb(254, 4, 4);
+}
